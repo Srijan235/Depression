@@ -1,0 +1,80 @@
+/* src/LandingPage.css */
+body {
+  font-family: Arial, sans-serif;
+   background-color: white;
+}
+
+.landing-page {
+  text-align: center;
+  padding: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  height: auto;
+  width:150px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.login-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+main {
+  background-color: #e0f7fa;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  color: #007bff;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background-color: #e06743;
+}
